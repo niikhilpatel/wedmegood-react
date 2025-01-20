@@ -1,0 +1,165 @@
+
+.Home-section{
+    background-image: url(../../images/Home/home_background.jpg);
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: end;
+}
+
+.Home-content{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;    
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* text-transform: uppercase;
+    font-size: 20px; */
+}
+
+.Home-head .Home-heading{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.Home-Input{
+    display: flex;
+    /* height: 10px; */
+    /* width: 512px; */
+    margin: 5px 30px;
+    padding: 18px 36px;
+    /* padding: 20px; */
+}
+
+.Home-Input .get-started-btn{
+    font-size: 20px;
+    background-color: #b4245d;
+    /* color: #b4245d; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.Home-section {
+    height: 70vh;
+    background-image: url('./images/Home/home_background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    background-image: linear-gradient(to top, #000000bd, #ffffff00);
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+.Home-head {
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.Home-heading {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Home-sub-heading {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.Home-Input {
+    display: flex;
+}
+
+.input-1 button lord-icon {
+    width: 3rem;
+    height: 4rem;
+}
+
+.input-1 button {
+    width: 5rem;
+    height: 5rem;
+    border: #b4245d .1rem solid;
+    border-left: none;
+    background-color: #fff;
+    color: #e72e77;
+    display: flex;
+    align-items: center;
+}
+
+.input-1 {
+    display: flex;
+}
+
+.input-1 input {
+    border: #b4245d .1rem solid;
+    border-right: none;
+    width: 32rem;
+    height: 5rem;
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    outline: none;
+}
+
+.get-started-btn button:hover {
+    background-color: #fff;
+    color: #e72e77;
+    transition: 0.3s ease;
+}
+
+.get-started-btn button {
+    padding: 1.23rem 4rem;
+    background-color: #e72e77;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: .1rem solid #e72e77;
+}
+
+.Home-para {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 1.5rem 0 3rem 0;
+}
+
+.second-page {
+    padding: 5rem 0;
+}
+
+.second-page-heading {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+} */
+
