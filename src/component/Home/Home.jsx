@@ -2,12 +2,14 @@ import React from "react";
 import "./Home.css";
 import Swiper1 from "../Swiper/Swiper1";
 import Swiper2 from "../Swiper/Swiper2";
+import DAppSection from "../DownloadApp/DAppSection"
 import fgImg1 from "../../images/cards/img1.jpg";
 import fgImg2 from "../../images/cards/img2.jpg";
 import fgImg3 from "../../images/cards/img3.jpg";
 import fgImg4 from "../../images/cards/img4.jpg";
 import fgImg5 from "../../images/cards/img5.jpg";
 import fgImg6 from "../../images/cards/img6.jpg";
+
 
 
 
@@ -158,6 +160,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <DAppSection/>
 
       {/* <section>
         <div>
@@ -220,6 +223,8 @@ const Home = () => {
           </div>
         </div>
       </section> */}
+
+    
     </>
 
   );
