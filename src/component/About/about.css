@@ -1,0 +1,47 @@
+.first-section {
+  margin: 100px 220px;
+}
+
+.first-section-div {
+  margin-bottom: 10px;
+}
+
+.about-logo img {
+  width: 350px;
+  height: auto;
+}
+
+.para {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.connect-with-us {
+  font-size: 20px;
+  color: #e72e77;
+  font-weight: 600;
+}
+.social-icon-style {
+  display: flex;
+  gap: 20px;
+  margin-left: 10px;
+}
+
+.social-icon-style img {
+  width: 40px;
+}
+
+/* second section */
+
+.second-section {
+  margin: 0;
+  padding: 0;
+}
+
+.second-section .second-section-div img {
+    filter: brightness(50%);    
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
