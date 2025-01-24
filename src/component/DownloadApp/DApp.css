@@ -1,0 +1,92 @@
+
+.third-section{
+    background-color: #ffebe8;
+    margin: 50px 0;
+    border-radius: 25px;
+    
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+}
+.download-app-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 30px;
+    row-gap: 30px;
+
+
+}
+
+.third-heading{
+    color: #a1134c;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.third-second-line{
+    display: flex;
+    color: #e72e77;
+    font-size: 15px;
+    gap: 15px;  
+    font-weight: 400;
+}
+
+.third-second-line-icon{
+  display: flex;
+  /* row-gap: -200px; */
+
+
+}
+.third-second-line-icon img{
+  width: 40px;
+  margin-top: -15px;
+}
+
+.dialer{
+  font-size: 222px;
+}
+.dialer img{
+  color: #e72e77;
+}
+
+.third-third-line{
+    color: #a1134c;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+.dialer{
+  font-size: 18px;
+  color: #e72e77;
+  font-weight: 600;
+}
+.third-section-right img{
+  width: 200px;
+  margin: 50px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #e72e77;
+  color: #fff;
+  background-color: #e72e77;
+  margin: 15px 100px;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.third-last-line{
+  display: flex;
+  justify-content: center;
+  gap: 30px;;
+  margin: 30px 0;
+}
+
+.third-last-line img{
+  width: 35px;
+}
