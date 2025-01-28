@@ -1,0 +1,138 @@
+.center-img {
+    background-image: url(../../images/Venues/first-img.jpg);
+    height: 60vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.center-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff !important;
+    align-items: center;
+    background-color: #000000a9;
+}
+
+.center-img-div img {
+    width: 100px;
+    color: #fff;
+    color: #fff !important;
+}
+
+.second-section .first-img .inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+    /* color: red; */
+    background-color: #000000a9;
+    height: 100%;
+}
+
+.center-img-div .center-img-text img {
+    width: 220px;
+}
+
+.center-img-div .text {
+    font-size: 20px;
+    color: #fff;
+    color: #fff !important;
+    margin-left: 8px;
+}
+
+/* first section end her */
+
+/* second section start from here */
+
+.second-section-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-heading .second-section-heading-text {
+    font-size: 30px;
+    font-weight: 600;
+    color: #e72e77;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.second-section-heading .second-section-heading-para {
+    font-size: 18px;
+    font-weight: 350;
+    width: 80%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* row section */
+
+.card-1{
+    background-image: url(../../images/Venues/row11.jpg);
+}
+
+.card-2{
+    background-image: url(../../images/Venues/row12.jpg);
+}
+
+.card-3{
+    background-image: url(../../images/Venues/row13.jpg);
+}
+
+.card-4{
+    background-image: url(../../images/Venues/row21.jpg);
+}
+
+.card-5{
+    background-image: url(../../images/Venues/row22.jpg);
+}
+
+.card-6{
+    background-image: url(../../images/Venues/row-23.jpg);    
+}
+
+/* last section */
+
+.venues-last-section{
+    background-color: #ffebe8;
+    padding: 5rem;
+    justify-content: center;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+
+.venues-last-section .heading{
+    color: #e72e77;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.venues-last-section .para{
+    font-size: 0.9rem;
+    color: black;
+    text-align: center;
+}
+
+.venues-last-section .third-line{
+    color: #e72e77;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.venues-last-section .button{
+    font-size: 1.2rem;
+    margin: 1rem 25rem;
+    padding: 0.7rem 2.5rem;
+    width: 100%;
+    border-radius: 0;
+    
+}

@@ -25,12 +25,23 @@
 .swiper-section-container-2,
 .swiper-section-container-3,
 .swiper-section-container-4,
-.swiper-section-container-5,
+.swiper-section-container-5 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    height: 20rem;
+}
+
 .swiper-section-container-9,
 .swiper-section-container-6,
 .swiper-section-container-7,
 .swiper-section-container-8,
 .swiper-section-container-10 {
+    height: 20rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,11 +75,11 @@
 }
 
 .slider-para {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 .slider-head {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -101,6 +112,41 @@
 .swiper-section-container-9 {
     background-image: url('src/images/Swiper/Swiper2/img5.jpg');
     border-radius: 2rem;
+}
+
+.swiper-section-container-11{
+    background-image: url('src/images/Swiper/Swiper3/S3IMG.jpg');
+}
+
+.swiper-section-container-12{
+    background-image: url('src/images/Swiper/Swiper3/S3IMG2.jpg');
+}
+
+.swiper-section-container-13{
+    background-image: url('src/images/Swiper/Swiper3/S3IMG3.jpg');
+}
+
+.swiper-section-container-14{
+    background-image: url('src/images/Swiper/Swiper3/S3IMG4.jpg');
+}
+
+.swiper-section-container-15{
+    background-image: url('src/images/Swiper/Swiper3/S3IMG5.jpg');
+}
+
+.swiper-section-container-11,
+.swiper-section-container-12,
+.swiper-section-container-13,
+.swiper-section-container-14,
+.swiper-section-container-15 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    height: 20rem;
 }
 
 .cerimony-head {
