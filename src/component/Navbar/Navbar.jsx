@@ -14,8 +14,6 @@ const Navbar = () => {
                 <Link to={"/"}>
                   <img src={logo} alt="Main-Logo" />
                 </Link>
-                {/* <a aria-current="page" className="active" href="/WedMeGood/"> */}
-                {/* </a> */}
               </div>
             </div>
             <div className="Nav-menu col-6">

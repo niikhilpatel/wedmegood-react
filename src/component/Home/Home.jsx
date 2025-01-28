@@ -9,6 +9,7 @@ import fgImg3 from "../../images/cards/img3.jpg";
 import fgImg4 from "../../images/cards/img4.jpg";
 import fgImg5 from "../../images/cards/img5.jpg";
 import fgImg6 from "../../images/cards/img6.jpg";
+import Swiper3 from "../Swiper/Swiper3";
 
 
 
@@ -54,7 +55,7 @@ const Home = () => {
         </div>
       </section>
       <Swiper1 />
-      {/* <Swiper2 /> */}
+      <Swiper2 />
 
 
       <section>
@@ -161,69 +162,7 @@ const Home = () => {
         </div>
       </section>
       <DAppSection/>
-
-      {/* <section>
-        <div>
-          <div className="fourth-page-section">
-            <div className="container">
-
-              <div className="fourth-page">
-
-                <div className="fourth-page-heading">
-                  Wedding categories
-
-                </div>
-                <div className="row">
-                  <div className="col-6">
-                    <div className="row fourth-page-box-1">
-                      <div className="col-6">
-                        Vanues
-                      </div>
-                      <div className="col-2">
-                        Banquet Hall | Farm House | Lawn
-
-                      </div>
-                    </div>
-
-
-                    <div>
-                      <img src={fgImg1} alt=""/>
-
-                    </div>
-                    <div>
-                      <img src={fgImg2} alt=""/>
-
-                    </div>
-                    <div>
-                      <img src={fgImg3} alt=""/>
-
-                    </div>
-
-                  </div>
-                  <div className="col-6">
-                    <div>
-                      <img src={fgImg4} alt=""/>
-
-                    </div>
-                    <div>
-                      <img src={fgImg5} alt=""/>
-
-                    </div>
-                    <div>
-                      <img src={fgImg6} alt=""/>
-
-                    </div>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section> */}
-
+      <Swiper3/>
     
     </>
 

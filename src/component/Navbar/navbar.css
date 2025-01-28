@@ -2,6 +2,7 @@
 .Navbar {
     display: flex;
     align-items: center;
+    height: 4rem;
 }
 
 .Navbar-section {
@@ -32,10 +33,10 @@
     transition: .3s ease;
 }
 
-.Nav-List .List a {
+.Nav-List .List a{
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -52,11 +53,11 @@
 }
 
 .Nav-Login-btn button {
-    padding: .7rem 4rem;
+    padding: .5rem 3rem;
     background-color: #b4245d;
     border-radius: 2rem;
     border: .1rem solid #b4245d;
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #fff;
 }
@@ -64,6 +65,7 @@
 .Nav-Login {
     display: flex;
     align-items: center;
+    row-gap: 5rem;
 
 }
 
@@ -80,8 +82,8 @@
 
 
 .search-btn-container {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     background-color: #b4245d;
     border-radius: 50%;
     border: .1rem solid #b4245d;
