@@ -38,10 +38,13 @@
   padding: 0;
 }
 
-.second-section .second-section-div img {
-    filter: brightness(50%);    
-    background-repeat: no-repeat;
-    height: 50vh;
-    width: 100%;
-    object-fit: cover;
+.second-section .second-section-div{
+  background-image: url(../../images/About/second-section-img.jpg);
+  filter: brightness(50%);
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+  background-position: 50%;
+  background-size: cover;
 }

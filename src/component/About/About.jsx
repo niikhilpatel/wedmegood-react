@@ -7,13 +7,6 @@ import Facebook from "../../images/Footer/facebook.png"
 import X from "../../images/Footer/x.png"
 import Linkedin from "../../images/Footer/linkedin.png"
 import Secondsectionimg from "../../images/About/second-section-img.jpg"
-import MobileImg from "../../images/About/mobile-img.png"
-import Hearticon from "../../images/About/Heart.gif"
-import Cart from "../../images/About/cart.png"
-import Note from "../../images/About/note.png"
-import Dialer from "../../images/About/dial-pad.png"
-import Play from "../../images/About/play-button-arrowhead.png"
-import Spider from "../../images/About/spider.png"
 
 const About = () => {
   return (
@@ -66,8 +59,7 @@ const About = () => {
       </section>
       <section className='second-section'>
         <div className='second-section-div'>
-
-          <img src={Secondsectionimg} alt="" />
+          {/* <img src={Secondsectionimg} alt="" /> */}
         </div>
       </section>
       <DAppSection/>
